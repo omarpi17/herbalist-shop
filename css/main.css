@@ -1,0 +1,1369 @@
+@import url("bootstrap.min.css");
+@import url("fonts.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url(animate.css);
+img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: nunito;
+    font-size: 16px;
+    line-height: 1.4;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+
+h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #2d3f3c;
+    text-transform: capitalize;
+    padding: 40px 0;
+    line-height: 1.2;
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+button{
+    background: #EFC368;
+    padding: 12px 30px 12px 30px;
+    border: 0px solid RGBA(0,0,0,1);
+    border-radius: 26px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #214842;
+    font-weight: 700;
+    transition: all .5s;
+}
+ button:hover{
+    color: white;
+    background-color:#1d7431 ;
+}
+.navbar-toggler:hover{
+    background-color: transparent;
+}
+.header{
+    background-color: white;
+    padding: 20px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    border-bottom:1px solid rgba(211, 211, 211, 0.363);
+}
+.header .navbar .navbar-brand{
+    margin-right: 60px
+}
+.header .navbar .collapse .navbar-nav{
+    margin: 0 ;
+}
+.nav-item {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1;
+    transition: all .3s;
+    text-transform: capitalize;
+    padding-right: 22px ;
+    margin-right: 22px;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+    color:#258f67;
+}
+.search{
+    position: relative;
+   
+}
+.search .search-icon{
+    padding:0 8px;
+}
+.search .me-2{
+     border-radius: 500px;
+     margin-inline-start: 100px;
+     padding-right: 30px;
+}
+.btn-outline-success{
+    position: absolute;
+    border: none;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 26px;
+    background-color: #efc360;
+    padding: 0 15px;
+}
+.header .navbar .heart{
+  
+    display: flex;
+}
+.header .navbar .heart a{
+    font-size: 17px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid transparent;
+    color: #17563d;
+    border-radius: 500px;
+    background-color: #efc360;
+    transition: all 0.5s;
+}
+.header .navbar .heart a:hover{
+    color: aliceblue;
+    background-color: #258f67;
+}
+.home{
+    height: 100vh;
+    background-image:url(../media/slider-21.jpg) ;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+ 
+}
+.home .text-home{
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 150px;
+    text-align: center;
+    
+
+}
+.home .text-home h1{
+    font-size: 450%;
+    font-weight: 900;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+}
+.home .text-home p{
+    font-weight: 400;
+    font-size: 150%;
+    color: white;
+    margin: auto;
+    padding: 20px 0 40px 0;
+    text-align: center;
+    max-width: 600px;
+}
+.home  button{
+
+    text-align: center;
+}
+
+.sale{
+    margin: 100px 0;
+}
+.special{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+   
+}
+
+.quarter1,.quarter2{
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    
+}
+.quarter1 p{
+    
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-right: 60px;
+    line-height: 1.4rem;
+    color: #556260;
+}
+
+.sale .quarter .sale-img{
+    position: relative;
+} 
+.sale .quarter .sale-info{
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    
+}
+
+.sale h3{
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight: 800;
+    color: #214842;
+    padding-left: 20px;
+}
+.sale h2{
+   text-align: start; 
+   padding: 0 0 20px 0;
+}
+.sale .quarter .sale-info p{
+    font-weight: 500;
+    padding-top: 6px;
+    color:#556260;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.second{
+    margin-top: 40px;
+    margin-right: 0px;
+}
+.sale .quarter a{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 30px;
+    color: #258f67;
+    border-bottom: 2px solid #258f67;
+    transition: all .5s;
+  
+}
+.sale .quarter  a:hover{
+    color: #214842;
+    border-bottom: 2px solid #214842;
+}
+.big-sale .sale-img{
+    position: relative;
+
+}
+.big-sale .sale-img .layer{
+    position: absolute;
+    inset: 0;
+    padding: 30px;
+}
+.big-sale .sale-img .layer .thirty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 48px;
+    width: 70px;
+    height: 70px;
+    background: #258f67;
+    border-radius: 500px
+}
+.thirty span{
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+.big-sale .sale-img .layer p{
+    font-weight: 600;
+}
+.big-sale .sale-img .layer h3{
+    padding:5px 0 20px 0;
+}
+.serum .row{
+    justify-content: space-around;
+}
+
+.serum .row .col-xl-6{
+    padding: 50px 30px;
+}
+.serum h2{
+    text-align: start;
+    padding: 20px 0;
+}
+.serum-info{
+    padding: 80px 40px;
+ }
+ .serum-info p{
+    padding: 20px 0;
+    font-weight: 700;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.6);
+ }
+.serum-img2{
+    max-width: 130px;
+}
+.serum-info li{
+    line-height:2.5 ;
+}
+.serum-info li i{
+    padding-right: 10px;
+    font-size: 18px;
+}
+.serum-info button{
+    margin-top: 0px;
+    
+}
+.ios{
+    margin: 100px 0;
+    background-color: rgba(211, 211, 211, 0.139);
+    padding: 100px 0;
+}
+
+.ios .row{
+    justify-content: space-between;
+}
+.ios  .cards{
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    padding:0 0 20px 0;
+    border: 1px solid rgba(211, 211, 211, 0.543);
+    border-radius: 16px 16px 0 0;
+    box-shadow: 5px 4px 2px rgba(173, 216, 230, 0.238);
+}
+
+.ppc .star img{
+    max-width: 120px;
+    padding: 15px 0;
+}
+.ppc{
+    text-align: center;
+    transition: all .5s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.ppc-img {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.ppc-img  p{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding:10px 13px;
+   background-color: white;
+    color: rgb(239, 160, 33);
+    border-radius: 500px;
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0; 
+    transition: all .5s;
+}
+
+
+.ppc-img img{
+    transition: all .5s;
+}
+.ppc-img span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding:5px 10px;
+    background-color: #258f67;
+    color: white;
+    border-radius: 500px;
+    font-weight: 600;
+    font-size: 15px;
+    
+}
+.ppc h4{
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all .5s;
+    padding-bottom: 10px;
+    color: #1d443e;
+}
+.par{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.par p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d443e;
+   
+
+}
+.par .discount{
+    margin-right: 10px;
+    position: relative;
+    color: rgba(42, 41, 41, 0.585);
+
+}
+.par .discount::after{
+    content: "";
+    position: absolute;
+    border-top: 2px solid black;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 50%;
+}
+.ppc:hover  h4{
+    color: #178c32;
+}
+.ppc:hover .ppc-img img{
+    transform: scale(1.1);
+}
+.ppc:hover .ppc-img p{
+   opacity: 1;
+   right: 20px;
+}
+.ppc .ppc-img p:hover{
+    color: rgb(215, 60, 60);
+}
+.ios  button{
+    margin: 15px 0;
+    background-color: white;
+    border:1px solid #258f67;
+    color:  #258f67;
+}
+.ios  button:hover{
+   
+    background-color: #efc360;
+    border-color: transparent;
+    color: rgb(15, 15, 51);
+}
+
+.ios  a{
+    color: #17563d;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all .5s;
+    padding-left: 10px;
+
+}
+.ios  a:hover{
+    color: #18812d;
+}
+.work span{
+    font-size: 40px;
+    padding:30px 35px;
+    border: 1px solid rgba(211, 211, 211, 0.215);
+    border-radius: 500px;
+    box-shadow: 0px 0px 2px rgba(211, 211, 211, 0.423);
+   color:  #33995f;
+   transition: all .5s;
+}
+.work .strange{
+    padding:30px 45px;
+}
+.work .info:hover span{
+    background-color:#33995f ;
+    color: white;
+}
+
+
+.work .info{
+    padding: 20px;
+    text-align: center;
+}
+.work .info h4{
+    padding: 40px 0 0 0;
+    margin: 12px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.work .info p{
+    padding-top: 6px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #556260;
+}
+.insta{
+    margin-top: 100px;
+}
+.insta .row{
+    padding: 50px 0 0 0;
+}
+.insta .insta-block{
+    padding: 0  ;
+    height: 270px;
+    width: 20%;
+    border: none;
+
+}
+
+.insta .insta-block img{
+    border-radius: 0;
+    height: 100%;
+}
+.insta{
+    text-align: center;
+}
+
+.insta .insta-img {
+   position: relative;
+   height: 270px;
+ 
+}
+.insta .insta-img .insta-layer{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.305);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all .5s;
+}
+.insta .insta-img:hover .insta-layer{
+    opacity: 1;
+}
+.insta .insta-img .insta-layer i{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+    border: 1px solid transparent;
+    background-color: #258f67;
+    border-radius: 500px;
+    transition: all .5s;
+    color: #ffffff;
+}
+.insta .insta-img .insta-layer i:hover{
+    background-color:#EFC360 ;
+    color: #258f67;
+}
+.insta2{
+    display: none;
+}
+.end{
+    padding: 120px 30px 80px 30px;
+    background-color: #1d443e;
+}
+.end .row{
+    justify-content: space-evenly;
+}
+.end .end-img img{
+    max-width: 100px;
+}
+.end p{
+    line-height: 1.5;
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    padding: 20px 15px 20px 0;
+}
+.end .first-iconset i{
+    color: #EFC360;
+    font-size: 25px;
+    margin-right: 15px;
+    padding-top: 10px;
+    transition: all .5s;
+    
+}
+.end .first-iconset i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.end h5{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom:20px ;
+}
+.cinfo{
+    display: flex;
+    align-items: center;
+  
+}
+.cinfo i{
+    color: #17563d;
+    margin-right: 18px;
+    font-size: 14px;
+    padding: 10px;
+    border:1px solid transparent;
+    background-color: #EFC360;
+    border-radius: 500px;
+}
+.sp i{
+    color: #EFC360;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.sp a{
+    color: white;
+    text-transform: capitalize;
+    line-height: 2.5;
+    transition: all .5s;
+}
+.sp a:hover{
+    color: #EFC360;
+}
+.last-album .col-4{
+    padding: 6px;
+}
+.finish{
+    padding: 20px 10px;
+}
+.finish .row{
+    justify-content: space-between;
+   
+}
+.finish-img{
+    text-align: end;
+}
+.finish-img img{
+    max-width: 400px;
+}
+.finish p{
+    font-weight: 700;
+    color: #556260;
+  
+}
+.finish a{
+    color: #17563d;
+    transition: all .5s;
+}
+.finish a:hover{
+    color: #751886;
+}
+.last-album .col{
+    padding: 8px;
+}
+
+.shop{
+    height: 300px;
+    margin: 100px 0;
+    background-image: url(../media/cbd-oil-and-cannabis-leafs-on-white-background-wit-C52MTWP-2.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position:center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 96px 15px
+}
+.shop h1{
+    font-size: 56px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin-bottom:12px;
+    color: #214842;
+}
+.shop p{
+    padding-top: 6px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.shop-list{
+    background-color: white;
+}
+.shop-list h2{
+    text-align: start;
+    position: relative;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.shop-list h2::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 8%;
+    height: 2px;
+    background-color: #258f67;
+}
+.shop-list a{
+    color: #258f67;
+    transition: all .5s;
+}
+.shop-list a:hover{
+    color: rgb(62, 60, 60);
+}
+.shop-list .container .show{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(135, 132, 132);
+}
+.shop-list .row .col-xl-3{
+    margin-bottom: 30px;
+    
+   }
+   .shop-list  .cards{
+    border-radius: 16px;
+   }
+   .num{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+   }
+   .shop-list .row .num .fay a{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px ;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all .5s;
+    color: #214842;
+   }
+   .shop-list .row .num .fay a:hover{
+    box-shadow: 0px 0px 3px lightgray;
+    background-color: rgba(255, 255, 255, 0.163);
+    color: rgb(30, 145, 30);
+   }
+   .ourteam{
+    margin-bottom: 30px;
+   }
+   .team{
+    margin-bottom: 100px;
+   }
+   .team h2{
+    padding-bottom: 100px;
+   }
+   .team .row .col {
+     padding: 10px 20px;
+   }
+   .team  .teamimg {
+    position: relative;
+   }
+   .team .teamimg .teamlayer{
+    border-radius: 16px;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.335);
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    opacity: 0;
+    transition: all.5s;
+   }
+   .team .teamimg:hover .teamlayer{
+    opacity: 1;
+   }
+   .team .teamimg:hover a{
+        margin-bottom: 40px;
+   }
+   .team .teamimg .teamlayer a{
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 7px 12px;
+    border: 1px solid transparent;
+    background-color: #EFC360;
+    border-radius: 500px;
+    color: #214842;
+    transition: all .5s;
+   }
+   .team .teamimg .teamlayer a:hover{
+    color: #1cabc4;
+   }
+.teambio{
+    text-align: center;
+   
+}
+.teambio h3{
+    margin-top: 18px;
+    margin-bottom: 6px;
+    padding: 0;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 22px;
+    color: #214842;
+    text-transform: capitalize;
+}
+.teambio h6{
+    font-size: 17px;
+    line-height: 1.3;
+    color: #258f67;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.teambio a{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 900;
+}
+.contact{
+    margin-bottom: 0;
+}
+.contact-info h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;  
+}
+.contact-info h3{
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.2;
+    text-transform: capitalize;  
+    color: #214842;
+}
+.contact-info p{
+    padding-top: 6px;
+    margin-bottom: 26px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #556260;
+
+}
+.contact-info .row .col{
+    padding: 30px;
+}
+label{
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 6px;
+    padding-left: 8px;
+    font-size: 18px;
+    color: gray;
+}
+.contact-info input{
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid lightgray;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 100%;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+iframe{
+    border-radius: 16px;
+}
+.ltm .cinfo p{
+ margin-bottom: 15px;
+}
+.ltm .cinfo{
+    margin-bottom: 10px;
+}
+.ltm .cinfo i{
+    font-size: 18px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    margin-right: 15px;
+    font-size: 23px;
+    padding: 8px;
+    color: #1d443e;
+    transition: all .5s;
+}
+.social .fb:hover{
+    color: blue;
+}
+.social .tw:hover{
+    color: rgb(35, 174, 221);
+}
+.social .ins:hover{
+    color: purple;
+}
+.social .lin:hover{
+    color: rgb(21, 85, 223);
+}
+.doc{
+    margin-bottom: 100px;
+}
+.doc .row .col{
+    padding: 0px 30px;
+}
+.doc .row h2{
+    margin-bottom: 12px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-top: 0;
+    text-align: start;
+
+}
+.doc .row p{
+    padding-top: 8px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+}
+.numbers{
+    padding-top: 20px;
+}
+.numbers .col{
+    padding: 0 30px;
+}
+.numbers h3{
+    font-size: 60px;
+    color: #258f67;
+    font-weight: 1000;
+}
+
+    
+.numbers p{
+    font-size: 16px;
+
+}
+
+.news .container{
+    background-image: url(../media/About-txt1.jpg);
+    background-size: cover;
+    border-radius: 16px; 
+    overflow: hidden;
+}
+.news h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+.news p{
+
+    max-width: 600px;
+    text-align: center;
+    color: white;
+}
+.news .row{
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.news .search{
+    width: 35%;
+    margin:40px auto;
+    height: 40px;
+}
+.news .search .form-control {
+    margin-inline-start: 0;
+}
+.news .search button{
+    font-weight: 700;
+    color: #1d443e;
+    transition: all .7s;
+
+}
+.news .search button:hover{
+    color: white;
+}
+.product{
+    margin: 60px 0;
+
+}
+
+.product .row {         
+  height: 710px;
+  background-image: url(../media/Purchase1.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-right: 50px;
+}
+.product .row .col h2{
+    text-align: start;
+    margin: 0;
+    padding: 60px 0 20px 0;
+}
+.product .row .col p{
+    padding-top: 6px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #556260;
+}
+.product .row .ltm .cinfo i{
+    font-size: 25px;
+    padding:15px 20px;
+}
+.product .row .ltm .cinfo h5{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.23;
+}
+.product .row .ltm .cinfo p{
+    font-size: 14px;
+
+    max-width: 350px;
+    padding: 0;
+    line-height: 1.4;
+}
+.product .row .ltm .cinfo {
+    margin:30px 0 ;
+}
+.product-end {
+    display: flex;
+    
+}
+.pbody{
+    margin-top: 40px;
+}
+.product .row .ltm  .cin i{
+    font-size: 14px;
+    padding:15px ;
+    background-color: #258f67;
+    color: white;
+}
+.product .row .ltm  .cin {
+    margin: 10px 0;
+}
+.product .row .ltm  .cin a{
+    color: #17563d;
+    font-weight: 700;
+}
+.product .row .ltm  .cin a:hover{
+    color: #1d443e;
+}
+.product .row .product-end .col h5{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+.tbout h2{
+    font-size: 36px;
+    position: static;
+    text-align: center;
+    padding: 20px 0;
+}
+.posts .col{
+    padding: 20px ;
+}
+.posts h2{
+    text-align: start;
+}
+.inner{
+    margin: 6px 0 19px 0;
+}
+.posts {
+    margin: 100px 30px;
+}
+.posts h3{
+    color: #214842;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 22px;
+    line-height: 1.22;
+    font-weight: 700;
+    transition: all .5s;
+    cursor: pointer;
+}
+.posts h3:hover{
+    color: #EFC360;
+}
+.posts p{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #556260;
+}
+.posts .uni{
+    padding: 10px 0 ;
+
+}
+.posts .uni i{
+    color: #17563d;
+    padding-right: 8px;
+}
+.posts .uni a{
+    color: #1d443e;
+    transition: all .5s;
+}
+.posts .uni a:hover{
+    color: #EFC360;
+}
+@media screen and (max-width:768px) {
+
+    .header .search input{
+        width: 100%;
+        margin: 0 0 0px 0;
+    }
+    .header .search{
+        margin-bottom: 20px;
+    }
+    .home{
+        margin-bottom: 0;
+    }
+    .home .text-home{
+        margin-left:0 ;
+        padding: 0;
+    }
+    .home .text-home h1{
+        font-size: 45px;
+    }
+    .home button{
+        margin: 0;
+    } 
+
+    .first p{
+        margin-bottom: 20px;
+    }
+    .second{
+        margin: 0;
+        padding-left: 30px;
+    }
+    .serum .serum-info h2{
+         padding: 0;
+         text-align: start;
+         font-size: 32px;
+    }
+    .ios .row .col{
+     margin-top: 30px;
+    }
+ 
+    .last-album .col img{
+     max-width: 120px; 
+     }
+    .insta .row .insta-block{
+     width: 33.33%;
+     }
+     .insta .row .insta-alter{
+        width: 50%;
+     }
+     .finish p{
+        font-size: 15px;
+     }
+     .shop h1{
+        font-size: 45px;
+     }
+     .shop-list {
+        margin: 30px 0 60px 0;
+     }
+     .shop-list h2{
+        margin: 0;
+        padding: 0;
+     }
+     .doc .row h2{
+        font-size: 25px;
+     }
+     .doc .numbers h3{
+        font-size: 60px;
+     }
+     .doc .numbers p{
+        font-size: 17px;
+        line-height: 22px;
+        font-weight: 600;
+     }
+     .product .row{
+        background: none;
+        padding: 0 20px;
+     }
+     .product h2{
+        color: #214842;
+        font-size: 32px;
+     }
+     .product h5{
+        margin-bottom: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-top: 0;
+    color: #214842;
+     }
+     .product-end{
+        justify-content: space-around
+     }
+     .product-end .san{
+       max-width: 250px;
+     }
+     .product .row .product-end .san p{
+        font-size: 14px;
+     }
+   
+    .tbout h2{
+        padding-bottom: 20px;
+        color: #214842;
+    }
+    .cinfo{
+        margin-bottom:20px ;
+    }
+    .cinfo p
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .end .fity i{
+        margin-bottom: 12px;
+        font-size: 17px;
+}
+
+.team .row{
+    margin-top: 50px;
+}
+.end .first-iconset i{
+        font-size: 19px;
+        margin-bottom: 30px;
+}
+    }
+ 
+    @media screen and (max-width:992px) {
+
+        .header .search input{
+            width: 100%;
+            margin: 0 0 0px 0;
+        }
+       
+        .header .heart {
+            display: flex;
+        }
+        .home{
+            margin-bottom: 0;
+           height: 130vh;
+        }
+        .home .text-home{
+            margin-left:0 ;
+            padding: 0;
+        }
+        .home .text-home h1{
+            font-size: 50px;
+        }
+        .home button{
+            margin: 0;
+        } 
+        
+        .first p{
+            margin-bottom: 20px;
+        }
+        .second{
+            margin: 0;
+            padding-left: 30px;
+        }
+        .serum .serum-info h2{
+             padding: 0;
+             text-align: start;
+             font-size: 32px;
+        }
+        .ios{
+            margin: 0 0 30px 0;
+            padding: 20px 0 50px 0;
+        }
+        .ios .row .col{
+         margin-top: 30px;
+        }
+        .ios h2{
+            color: #17563d;
+            font-size: xx-large;
+        }
+     
+        .last-album .col img{
+         max-width: 120px; 
+         }
+        .insta .row .insta-block{
+         width: 33.33%;
+         }
+         .insta .row .insta-alter{
+            width: 50%;
+         }
+         .finish p{
+            font-size: 15px;
+         }
+         .shop h1{
+            font-size: 45px;
+         }
+         .shop-list {
+            margin: 30px 0 60px 0;
+         }
+         .shop-list h2{
+            margin: 0;
+            padding: 0;
+         }
+         .doc .row h2{
+            font-size: 25px;
+         }
+         .doc .numbers h3{
+            font-size: 60px;
+         }
+         .doc .numbers p{
+            font-size: 17px;
+            line-height: 22px;
+            font-weight: 600;
+         }
+         .product .row{
+            background: none;
+            padding: 0 20px;
+         }
+         .product h2{
+            color: #214842;
+            font-size: 32px;
+         }
+         .product h5{
+        margin-bottom: 6px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 1.3;
+        padding-top: 0;
+        color: #214842;
+         }
+         .product-end{
+            justify-content: start;
+         }
+         .product-end .co{
+           padding: 0;
+           margin: 0;
+         }
+         .product .row .product-end .san p{
+            font-size: 17px;
+            padding-right: 20px;
+         }
+       
+        .tbout h2{
+            padding-bottom: 20px;
+            color: #214842;
+        }
+        .cinfo{
+            margin-bottom:20px ;
+        }
+        .cinfo p
+        {
+            margin: 0;
+            padding: 0;
+        }
+        .end .fity i{
+            margin-bottom: 12px;
+            font-size: 17px;
+    }
+    
+    .team .row{
+        margin-top: 50px;
+    }
+    .end .first-iconset i{
+            font-size: 19px;
+            margin-bottom: 30px;
+    }
+    .posts .row h3{
+      
+        font-size: 21px;
+        font-weight: 700;
+    }
+    .end h5{
+        font-size: 20px;
+    }
+
+        }
+        @media screen and (max-width:600px) {
+
+
+            .insta .row .insta-block{
+                width: 100%;
+            }
+            .finish .row .finish-img{
+                text-align: center;
+            
+            }
+            .product-end{
+                display: flex;
+                flex-direction: column;
+            }
+            .product-end .col {
+                padding: 10px 0;
+            }
+            .tbout{
+                margin-top: 120px;
+            }
+
+        }
